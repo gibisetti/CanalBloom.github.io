@@ -1,0 +1,49 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.navegacao {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.navegacao__logo {
+    width: 13%;
+}
+
+.navegacao__conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao__menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;   
+}
+
+.menu__link {
+    padding: 0 0 0 35px;
+}
+
+.menu__botao {
+    border-radius: 25px;
+    padding: 10px 24px;
+    margin-left: 10px;
+}
+
+.branco {
+    border: #793df5 solid 1px; 
+}
+
+.roxo {
+    background-color: #793df5;
+    color: #ffffff;
+}
