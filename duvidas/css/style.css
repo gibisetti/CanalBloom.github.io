@@ -65,8 +65,16 @@ body {
     color: #ffffff;
 }
 
-#resposta {
+.doubts {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reply {
     display: none;
+    margin: 0;
 }
 
 .btnShow {
